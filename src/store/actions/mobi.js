@@ -5,8 +5,6 @@ export const bootstrap = props => dispatch => {
 };
 
 export const loading = param => (dispatch, getState) => {
-  console.log('It is alive!!!', param, getState());
-
   dispatch({
     type: 'mobi/LOADING',
     param,

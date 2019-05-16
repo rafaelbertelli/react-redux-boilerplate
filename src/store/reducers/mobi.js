@@ -5,10 +5,10 @@ export default (state = INITIAL_STATE, action) => {
     case 'mobi/LOADING':
       return {
         ...state,
-        loading: action.payload,
+        loading: action.param,
       };
 
-    case 'gto/BOOTSTRAP':
+    case 'mobi/BOOTSTRAP':
       return {
         ...state,
       };

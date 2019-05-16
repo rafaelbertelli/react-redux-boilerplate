@@ -1,15 +1,20 @@
-# React, Redux, Jest, Hook, Styled Components, WebPack, Lint, Prettier
+# React boilerplate
 
-## Project start up
+### Technologies
+
+- React
+- Redux
+- Redux Thunk
+- React Router Dom
+- Styled Components
+- Jest configuration
+- ESLint
+- Prettier
+- WebPack
+
+## Start up
 
 ```terminal
 npm install    # install npm packages
 npm start      # run application
-```
-
-## Run tests
-
-```terminal
-npm test              # run tests
-npm run test:watch    # run and keep watching tests
 ```
